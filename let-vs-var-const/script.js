@@ -54,4 +54,27 @@
 // const a;
 // const a;
 
-// 3. Declaration without initialization
+// 3. Declaration without initialisation
+// var a; // var can be declared with any value
+// let a; // let  can be declared with any value
+
+// const a = 5; // but const can not be declared without initializer or any value
+
+// 4. Re- initialization
+
+// var and let are re-initiaalize their value but const gives error because its assignment to constant variable
+// var and let can be updated but const never
+// const a = 5;
+// a = 6;
+
+// 5.Hoisting
+
+// console.log(count);
+// let count = 1;
+// var count2 = 2;
+
+function abc() {
+  console.log(a);
+  var a = 10;
+}
+abc();
