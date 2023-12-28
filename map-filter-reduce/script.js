@@ -6,14 +6,14 @@
 //   return num * 3;
 // });
 // console.log(multiflyThree);
-
+//-------------------------//-------------------------------//
 //2. what is filter?
 // const nums = [1, 2, 3, 4, 5, 6];
 // const moreThanThree = nums.filter((num) => {
 //   return num < 3;
 // });
 // console.log(moreThanThree);
-
+//-------------------------//-------------------------------//
 //3. what is reduce()?
 
 // const nums = [1, 2, 3, 4, 5]; // if there is no initial value, it takes first element of array as value for accumulator
@@ -22,6 +22,7 @@
 // }, 0);
 // console.log(sum);
 
+//-------------------------//-------------------------------//
 //POLYFILL FOR MAP()
 
 //Array.map((num,i,arr)=>{})
@@ -40,3 +41,5 @@ const multiflyThree = nums.myMap((num, i, arr) => {
   return num * 3;
 });
 console.log(multiflyThree);
+
+//-------------------------//-------------------------------//
