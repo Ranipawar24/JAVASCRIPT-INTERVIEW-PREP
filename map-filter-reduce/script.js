@@ -23,7 +23,7 @@
 // console.log(sum);
 
 //-------------------------//-------------------------------//
-//POLYFILL FOR MAP()
+// 4.POLYFILL FOR MAP()
 
 //Array.map((num,i,arr)=>{})
 
@@ -44,20 +44,37 @@
 // console.log(multiflyThree);
 
 //-------------------------//-------------------------------//
-//POLYFILL FOR FILTER()
+// 5.POLYFILL FOR FILTER()
 
-Array.prototype.myFilter = function (cb) {
-  let temp = [];
-  for (let i = 0; i < this.length; i++) {
-    if (cb(this[i], i, this)) temp.push(this[i]);
-  }
-  return temp;
-};
-const nums = [1, 2, 3, 4, 5, 6];
-const moreThanThree = nums.myFilter((num) => {
-  return num > 3;
-});
-console.log(moreThanThree);
+// Array.prototype.myFilter = function (cb) {
+//   let temp = [];
+
+//   for (let i = 0; i < this.length; i++) {
+//     if (cb(this[i], i, this)) temp.push(this[i]);
+//   }
+//   return temp;
+// };
+// const nums = [1, 2, 3, 4, 5, 6];
+// const moreThanThree = nums.myFilter((num) => {
+//   return num > 3;
+// });
+// console.log(moreThanThree);
 
 //-------------------------//-------------------------------//
-//POLYFILL FOR REDUCE()
+// 6.POLYFILL FOR REDUCE()
+
+// Array.prototype.myReduce = function (cb, initialValue) {
+//   var accumulator = initialValue;
+
+//   for (let i = 0; i < this.length; i++) {
+//     accumulator = accumulator ? cb(accumulator, this[i], i, this) : this[i];
+//   }
+//   return accumulator;
+// };
+// const nums = [1, 2, 3, 4, 5];
+// const sum = nums.myReduce((acc, curr, i, arr) => {
+//   return acc + curr;
+// }, 0);
+// console.log(sum);
+
+//7. MAP VS FOREACH
