@@ -135,3 +135,27 @@
 //-------------------------//-------------------------------//
 
 // 10. SUM OF MARKS OF ALL STUDENTS
+
+// let students = [
+//   { name: "piyush", rollNum: 21, marks: 70 },
+//   { name: "Rani", rollNum: 20, marks: 75 },
+//   { name: "Angel", rollNum: 31, marks: 90 },
+//   { name: "Pinky", rollNum: 41, marks: 80 },
+// ];
+
+// const sum = students.reduce((acc, curr) => acc + curr.marks, 0);
+// console.log(sum);
+
+//-------------------------//-------------------------------//
+
+// 11. RETURN ONLY NAMES OF STUDENTS WHO SCORED MORE THAN 60
+
+// let students = [
+//   { name: "piyush", rollNum: 21, marks: 70 },
+//   { name: "Rani", rollNum: 20, marks: 75 },
+//   { name: "Angel", rollNum: 31, marks: 90 },
+//   { name: "Pinky", rollNum: 41, marks: 80 },
+// ];
+
+// // const names = students.filter((stu) => stu.marks > 80).map((stu) => stu.name);
+// // console.log(names);
