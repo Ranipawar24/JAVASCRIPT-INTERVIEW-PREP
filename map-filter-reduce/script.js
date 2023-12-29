@@ -23,6 +23,7 @@
 // console.log(sum);
 
 //-------------------------//-------------------------------//
+
 // 4.POLYFILL FOR MAP()
 
 //Array.map((num,i,arr)=>{})
@@ -44,6 +45,7 @@
 // console.log(multiflyThree);
 
 //-------------------------//-------------------------------//
+
 // 5.POLYFILL FOR FILTER()
 
 // Array.prototype.myFilter = function (cb) {
@@ -61,6 +63,7 @@
 // console.log(moreThanThree);
 
 //-------------------------//-------------------------------//
+
 // 6.POLYFILL FOR REDUCE()
 
 // Array.prototype.myReduce = function (cb, initialValue) {
@@ -77,4 +80,58 @@
 // }, 0);
 // console.log(sum);
 
+//-------------------------//-------------------------------//
+
 //7. MAP VS FOREACH
+
+// 8. RETURN ONLY NAME OF STUDENTS IN CAPITAL
+
+// let students = [
+//   { name: "piyush", rollNum: 21, marks: 70 },
+//   { name: "Rani", rollNum: 20, marks: 75 },
+//   { name: "Angel", rollNum: 31, marks: 90 },
+//   { name: "Pinky", rollNum: 41, marks: 80 },
+// ];
+// // using for loop method
+
+// // let names = [];
+// // for (let i = 0; i < students.length; i++) {
+// //   names.push(students[i].name.toUpperCase());
+// // }
+// // console.log(names);
+
+// // using for map method
+// const names = students.map((stu) => stu.name.toUpperCase());
+// console.log(names);
+
+//-------------------------//-------------------------------//
+
+// 8. RETURN ONLY DETAILS OF THOSE WHO SCORED MORE THAN 60 MARKS?
+
+// let students = [
+//   { name: "piyush", rollNum: 21, marks: 70 },
+//   { name: "Rani", rollNum: 20, marks: 75 },
+//   { name: "Angel", rollNum: 31, marks: 90 },
+//   { name: "Pinky", rollNum: 41, marks: 80 },
+// ];
+
+// const details = students.filter((stu) => stu.marks > 70);
+// console.log(details);
+
+//-------------------------//-------------------------------//
+
+// 9. MORE THAN 60 MARKS AND ROLLNUMBER GREATER THAN 15
+
+// let students = [
+//   { name: "piyush", rollNum: 21, marks: 70 },
+//   { name: "Rani", rollNum: 20, marks: 75 },
+//   { name: "Angel", rollNum: 31, marks: 90 },
+//   { name: "Pinky", rollNum: 41, marks: 80 },
+// ];
+
+// const details = students.filter((stu) => stu.marks > 76 && stu.rollNum > 15);
+// console.log(details);
+
+//-------------------------//-------------------------------//
+
+// 10. SUM OF MARKS OF ALL STUDENTS
