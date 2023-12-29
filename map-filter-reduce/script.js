@@ -159,3 +159,22 @@
 
 // // const names = students.filter((stu) => stu.marks > 80).map((stu) => stu.name);
 // // console.log(names);
+
+//-------------------------//-------------------------------//
+
+// 12. RETURN TOTAL MARKS FOR STUDENTS WITH MARKS GREATER THAN 60 AFTER 20 MARKS HAVE BEEN ADDED TO THOSE WHO SCORED LESS THAN 60
+
+let students = [
+  { name: "piyush", rollNum: 21, marks: 70 },
+  { name: "Rani", rollNum: 20, marks: 75 },
+  { name: "Angel", rollNum: 31, marks: 90 },
+  { name: "Pinky", rollNum: 41, marks: 80 },
+];
+
+const totalMarks = students.map((stu) => {
+  if (stu.marks < 60) {
+    stu.marks += 20;
+  }
+  return stu;
+});
+console.log(totalMarks);
