@@ -20,7 +20,7 @@
 //-------------------------//-------------------------------//
 // Q 3 - WHAT IS FIRST CLass FUNCTION ?
 
-// we can paas them of another fun just like a variable and we can also manupulate retun them from of that fun is called first class fun.
+// we can paas them of another fun just like a variable and we can also manupulate retun them from that fun is called first class fun.
 
 function square(nums) {
   return nums * nums;
@@ -30,3 +30,6 @@ function displaySqure(fn) {
   console.log("square is " + fn(5));
 }
 displaySqure(square);
+
+//-------------------------//-------------------------------//
+// Q 4 - WHAT IS IIFE?
