@@ -22,14 +22,27 @@
 
 // we can paas them of another fun just like a variable and we can also manupulate retun them from that fun is called first class fun.
 
-function square(nums) {
-  return nums * nums;
-}
+// function square(nums) {
+//   return nums * nums;
+// }
 
-function displaySqure(fn) {
-  console.log("square is " + fn(5));
-}
-displaySqure(square);
+// function displaySqure(fn) {
+//   console.log("square is " + fn(5));
+// }
+// displaySqure(square);
 
 //-------------------------//-------------------------------//
 // Q 4 - WHAT IS IIFE?
+// IIFE MEANS EMMEDIATELY INVOKED FUNCTION EXPRESSION
+(function square(num) {
+  console.log(num * num);
+})(5);
+
+//-------------------------//-------------------------------//
+// Q 5 - IIFE - OUTPUT BASED QUE ?
+
+(function (x) {
+  return (function (y) {
+    console.log(x);
+  })(2);
+})(1);
