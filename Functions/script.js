@@ -34,18 +34,24 @@
 //-------------------------//-------------------------------//
 // Q 4 - WHAT IS IIFE?
 // IIFE MEANS EMMEDIATELY INVOKED FUNCTION EXPRESSION
-(function square(num) {
-  console.log(num * num);
-})(5);
+// (function square(num) {
+//   console.log(num * num);
+// })(5);
+
+// //-------------------------//-------------------------------//
+// // Q 5 - IIFE - OUTPUT BASED QUE ?
+
+// (function (x) {
+//   return (function (y) {
+//     console.log(x);
+//   })(2);
+// })(1);
 
 //-------------------------//-------------------------------//
-// Q 5 - IIFE - OUTPUT BASED QUE ?
+// Q 6 - FUNCTION SCOPE  ? OUTPUT BASED QUE ?
 
-(function (x) {
-  return (function (y) {
-    console.log(x);
-  })(2);
-})(1);
-
-//-------------------------//-------------------------------//
-// Q 5 - IIFE - OUTPUT BASED QUE ?
+for (let i = 0; i < 5; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, i * 1000);
+}
