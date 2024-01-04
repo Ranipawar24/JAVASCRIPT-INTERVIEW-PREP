@@ -59,7 +59,12 @@ for (let i = 0; i < 5; i++) {
 //-------------------------//-------------------------------//
 // Q 6 - FUNCTION HOISTING  ?
 // functions are hoisted comletely
+
+functionName();
 function functionName() {
   console.log("hello");
 }
-functionName();
+
+console.log(a);
+var a = 5;
+// console.log(a);
