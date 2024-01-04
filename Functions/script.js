@@ -50,21 +50,23 @@
 //-------------------------//-------------------------------//
 // Q 6 - FUNCTION SCOPE  ? OUTPUT BASED QUE ?
 
-for (let i = 0; i < 5; i++) {
-  setTimeout(function () {
-    console.log(i);
-  }, i * 1000);
-}
+// for (let i = 0; i < 5; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, i * 1000);
+// }
 
-//-------------------------//-------------------------------//
-// Q 6 - FUNCTION HOISTING  ?
-// functions are hoisted comletely
+// //-------------------------//-------------------------------//
+// // Q 6 - FUNCTION HOISTING  ?
+// // functions are hoisted comletely
 
-functionName();
-function functionName() {
-  console.log("hello");
-}
+// functionName();
+// function functionName() {
+//   console.log("hello");
+// }
 
-console.log(a);
-var a = 5;
 // console.log(a);
+// var a = 5;
+// // console.log(a);
+
+// Q 6 - FUNCTION HOISTING  ? OUTPUT BASED QUE ?
