@@ -58,3 +58,8 @@ for (let i = 0; i < 5; i++) {
 
 //-------------------------//-------------------------------//
 // Q 6 - FUNCTION HOISTING  ?
+// functions are hoisted comletely
+function functionName() {
+  console.log("hello");
+}
+functionName();
