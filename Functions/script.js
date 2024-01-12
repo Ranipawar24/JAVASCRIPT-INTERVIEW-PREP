@@ -71,20 +71,28 @@
 
 // Q 7 - FUNCTION HOISTING  ? OUTPUT BASED QUE ?
 //when we have a variable present in a scope we will not go and check globel scope
-var x = 20;
+// var x = 20;
 
-var fun = function () {
-  console.log(x);
-  var x = 21;
-};
-fun();
+// var fun = function () {
+//   console.log(x);
+//   var x = 21;
+// };
+// fun();
 
-// Q 8 - FUNCTION HOISTING  ? OUTPUT BASED QUE ?
-//when we have a variable present in a scope we will not go and check globel scope
-var x = 20;
+// // Q 8 - FUNCTION HOISTING  ? OUTPUT BASED QUE ?
+// //when we have a variable present in a scope we will not go and check globel scope
+// var x = 20;
 
-var fun = function () {
-  console.log(x);
-  var x = 21;
-};
-fun();
+// var fun = function () {
+//   console.log(x);
+//   var x = 21;
+// };
+// fun();
+
+// Q 9- PARAMS VS ARGUMENTS?
+
+function square(num) {
+  // parameters
+  console.log(num);
+}
+square(5); // arguments
