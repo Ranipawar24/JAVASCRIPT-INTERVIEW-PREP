@@ -91,9 +91,9 @@
 
 // Q 9- PARAMS VS ARGUMENTS?
 
-function square(num) {
-  //  // parameters
+// function square(num) {
+//   //  // parameters
 
-  console.log(num);
-}
-square(5); // arguments
+//   console.log(num);
+// }
+// square(5); // arguments
