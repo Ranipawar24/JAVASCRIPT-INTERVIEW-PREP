@@ -97,3 +97,20 @@
 //   console.log(num);
 // }
 // square(5); // arguments
+
+// Q 10- PARAMS VS ARGUMENTS output?
+
+function multyply(num1, num2) {
+  console.log(num1 * num2);
+}
+var arr = [5, 6];
+multyply(5, 6);
+
+//-------------------------//-------------------------------//
+
+function multyply(...nums) {
+  // this is called rest operator
+  console.log(nums[0] * nums[1]);
+}
+var arr = [5, 6];
+multyply(...arr); // this is called spread operator
