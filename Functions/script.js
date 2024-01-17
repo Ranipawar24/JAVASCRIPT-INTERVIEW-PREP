@@ -114,3 +114,5 @@ function multyply(...nums) {
 }
 var arr = [5, 6];
 multyply(...arr); // this is called spread operator
+
+// Q 10- PARAMS VS ARGUMENTS output based questions?
