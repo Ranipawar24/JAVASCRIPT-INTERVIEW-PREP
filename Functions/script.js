@@ -162,3 +162,5 @@ const fn1 = () => {
   console.log(arguments);
 };
 fn1(1, 2, 3);
+
+// this keyword
