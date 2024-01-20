@@ -121,3 +121,7 @@ const fn = (a, x, y, ...numbers) => {
   console.log(x, y, numbers);
 };
 fn(5, 6, 3, 2, 8, 7);
+
+// Q 10- WHAT IS A CALLBACK FUNCTION?
+// A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to
+//complete some kind of routine or action.
