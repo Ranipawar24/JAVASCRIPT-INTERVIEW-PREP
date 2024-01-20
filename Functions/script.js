@@ -116,5 +116,8 @@ var arr = [5, 6];
 multyply(...arr); // this is called spread operator
 
 // Q 10- PARAMS VS ARGUMENTS output based questions?
-
-//-------------------------//-------------------------------//
+// rest and spread parameters are must be the last formal parameters
+const fn = (a, x, y, ...numbers) => {
+  console.log(x, y, numbers);
+};
+fn(5, 6, 3, 2, 8, 7);
