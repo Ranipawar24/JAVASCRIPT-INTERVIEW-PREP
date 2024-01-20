@@ -125,3 +125,5 @@ fn(5, 6, 3, 2, 8, 7);
 // Q 10- WHAT IS A CALLBACK FUNCTION?
 // A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to
 //complete some kind of routine or action.
+
+document.addEventListener("click", function (params) {}); // when we passing a function inside another function an this fun is manupulated inside this owns
