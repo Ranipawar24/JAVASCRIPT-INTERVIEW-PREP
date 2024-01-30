@@ -13,5 +13,11 @@ function local() {
   console.log(username);
 }
 local();
+
+function local() {
+  //local scope
+  console.log(username);
+}
+local();
 //-------------------------//-------------------------------//
 //-------------------------//-------------------------------//
